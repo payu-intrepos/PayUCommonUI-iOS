@@ -36,6 +36,7 @@ Pod::Spec.new do |s|
   s.source              = { :git => "https://github.com/payu-intrepos/PayUCommonUI-iOS.git",
     :tag => "#{s.version}"
   }
+  s.documentation_url   = "https://devguide.payu.in/mobile-sdk-ios/introduction-to-payu-mobile-sdk/"
   s.platform            = :ios , "11.0"
   s.vendored_frameworks = 'PayUCommonUI.xcframework'
 
