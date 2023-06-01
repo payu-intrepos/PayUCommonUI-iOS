@@ -1,0 +1,27 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PayUCommonUI
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import PayUCommonUI
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objcMembers @_Concurrency.MainActor(unsafe) public class PayULoaderView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @objc @_Concurrency.MainActor(unsafe) public func updateDescriptionMessage(_ message: Swift.String)
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @IBDesignable @_Concurrency.MainActor(unsafe) public class PayULogoView : UIKit.UIView, QuartzCore.CAAnimationDelegate {
+  @objc deinit
+}
+extension PayUCommonUI.PayULogoView {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func animationDidStop(_ anim: QuartzCore.CAAnimation, finished flag: Swift.Bool)
+}
+@objc extension UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func addPayULogo()
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func removePayULogo()
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func showPayULoader(with message: Swift.String = "", and backgroundColor: UIKit.UIColor = .white)
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func hidePayULoader()
+}
