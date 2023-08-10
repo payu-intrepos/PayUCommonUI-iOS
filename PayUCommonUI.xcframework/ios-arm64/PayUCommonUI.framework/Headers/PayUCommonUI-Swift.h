@@ -385,16 +385,6 @@ SWIFT_CLASS("_TtC12PayUCommonUI29PayUUserCancellationViewModel")
 @end
 
 
-@interface UIView (SWIFT_EXTENSION(PayUCommonUI))
-@property (nonatomic) IBInspectable CGFloat cornerRadius;
-@property (nonatomic) IBInspectable CGFloat borderWidth;
-@property (nonatomic, strong) IBInspectable UIColor * _Nullable borderColor;
-@property (nonatomic) IBInspectable CGFloat shadowRadius;
-@property (nonatomic) IBInspectable float shadowOpacity;
-@property (nonatomic) IBInspectable CGSize shadowOffset;
-@property (nonatomic, strong) IBInspectable UIColor * _Nullable shadowColor;
-@end
-
 #endif
 #if defined(__cplusplus)
 #endif

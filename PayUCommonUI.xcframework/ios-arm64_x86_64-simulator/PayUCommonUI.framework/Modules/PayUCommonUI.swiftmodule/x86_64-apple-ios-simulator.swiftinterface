@@ -150,40 +150,6 @@ public enum PayUAnalyticsStatusValue : Swift.String, Swift.Codable {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc deinit
 }
-extension UIKit.UIView {
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic public var cornerRadius: CoreFoundation.CGFloat {
-    @objc get
-    @objc set
-  }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic public var borderWidth: CoreFoundation.CGFloat {
-    @objc get
-    @objc set
-  }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic public var borderColor: UIKit.UIColor? {
-    @objc get
-    @objc set
-  }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic public var shadowRadius: CoreFoundation.CGFloat {
-    @objc get
-    @objc set
-  }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic public var shadowOpacity: Swift.Float {
-    @objc get
-    @objc set
-  }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic public var shadowOffset: CoreFoundation.CGSize {
-    @objc get
-    @objc set
-  }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic public var shadowColor: UIKit.UIColor? {
-    @objc get
-    @objc set
-  }
-  @_Concurrency.MainActor(unsafe) public func onePayUUIRoundCorners(corners: QuartzCore.CACornerMask = [.layerMinXMinYCorner, .layerMaxXMinYCorner], radius: CoreFoundation.CGFloat = 20)
-  @_Concurrency.MainActor(unsafe) public func onePayUUIAddShadow(color: UIKit.UIColor = .onePayUUIShadowColor, alpha: Swift.Float = 0.05, x: CoreFoundation.CGFloat = 0, y: CoreFoundation.CGFloat = 8, blur: CoreFoundation.CGFloat = 18, spread: CoreFoundation.CGFloat = 2)
-  @_Concurrency.MainActor(unsafe) public func onePayUUISetEnable(_ isEnable: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) public func onePayUUIAddBorder(color: UIKit.UIColor, radius: CoreFoundation.CGFloat, width: CoreFoundation.CGFloat)
-}
 @objc @_inheritsConvenienceInitializers @objcMembers @_Concurrency.MainActor(unsafe) public class PayUBaseView : UIKit.UIView {
   @objc @_Concurrency.MainActor(unsafe) public var onViewDismissed: (() -> Swift.Void)?
   @objc @_Concurrency.MainActor(unsafe) public var onHeightChanged: ((CoreFoundation.CGFloat) -> Swift.Void)?
