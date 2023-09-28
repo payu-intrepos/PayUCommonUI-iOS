@@ -309,6 +309,20 @@ SWIFT_CLASS("_TtC12PayUCommonUI17PayUCustomOverlay")
 @end
 
 
+SWIFT_CLASS("_TtC12PayUCommonUI14PayUFontFamily")
+@interface PayUFontFamily : NSObject
+@property (nonatomic, copy) NSString * _Nonnull regular;
+@property (nonatomic, copy) NSString * _Nonnull medium;
+@property (nonatomic, copy) NSString * _Nonnull semibold;
+@property (nonatomic, copy) NSString * _Nonnull bold;
+- (nonnull instancetype)initWithRegular:(NSString * _Nonnull)regular medium:(NSString * _Nonnull)medium semibold:(NSString * _Nonnull)semibold bold:(NSString * _Nonnull)bold OBJC_DESIGNATED_INITIALIZER;
++ (void)setWithFontFamily:(PayUFontFamily * _Nonnull)fontFamily;
++ (void)reset;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 SWIFT_CLASS("_TtC12PayUCommonUI14PayULoaderView")
 @interface PayULoaderView : PayUBaseView
 - (void)updateDescriptionMessage:(NSString * _Nonnull)message;
@@ -375,11 +389,33 @@ SWIFT_CLASS("_TtC12PayUCommonUI29PayUUserCancellationViewModel")
 @end
 
 
+@interface UIButton (SWIFT_EXTENSION(PayUCommonUI))
+- (void)payuCustomizeFont;
+@end
+
+
+
+
+@interface UILabel (SWIFT_EXTENSION(PayUCommonUI))
+- (void)payuCustomizeFont;
+@end
+
+
+
+@interface UITextField (SWIFT_EXTENSION(PayUCommonUI))
+- (void)payuCustomizeFont;
+@end
+
+
+@interface UITextView (SWIFT_EXTENSION(PayUCommonUI))
+- (void)payuCustomizeFont;
+@end
 
 
 @interface UIView (SWIFT_EXTENSION(PayUCommonUI))
 - (void)addPayULogo;
 - (void)removePayULogo;
+- (void)showPayULoaderWithMessage:(NSString * _Nonnull)message backgroundColor:(UIColor * _Nonnull)backgroundColor alpha:(CGFloat)alpha;
 - (void)showPayULoaderWith:(NSString * _Nonnull)message and:(UIColor * _Nonnull)backgroundColor;
 - (void)hidePayULoader;
 @end
@@ -704,6 +740,20 @@ SWIFT_CLASS("_TtC12PayUCommonUI17PayUCustomOverlay")
 @end
 
 
+SWIFT_CLASS("_TtC12PayUCommonUI14PayUFontFamily")
+@interface PayUFontFamily : NSObject
+@property (nonatomic, copy) NSString * _Nonnull regular;
+@property (nonatomic, copy) NSString * _Nonnull medium;
+@property (nonatomic, copy) NSString * _Nonnull semibold;
+@property (nonatomic, copy) NSString * _Nonnull bold;
+- (nonnull instancetype)initWithRegular:(NSString * _Nonnull)regular medium:(NSString * _Nonnull)medium semibold:(NSString * _Nonnull)semibold bold:(NSString * _Nonnull)bold OBJC_DESIGNATED_INITIALIZER;
++ (void)setWithFontFamily:(PayUFontFamily * _Nonnull)fontFamily;
++ (void)reset;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 SWIFT_CLASS("_TtC12PayUCommonUI14PayULoaderView")
 @interface PayULoaderView : PayUBaseView
 - (void)updateDescriptionMessage:(NSString * _Nonnull)message;
@@ -770,11 +820,33 @@ SWIFT_CLASS("_TtC12PayUCommonUI29PayUUserCancellationViewModel")
 @end
 
 
+@interface UIButton (SWIFT_EXTENSION(PayUCommonUI))
+- (void)payuCustomizeFont;
+@end
+
+
+
+
+@interface UILabel (SWIFT_EXTENSION(PayUCommonUI))
+- (void)payuCustomizeFont;
+@end
+
+
+
+@interface UITextField (SWIFT_EXTENSION(PayUCommonUI))
+- (void)payuCustomizeFont;
+@end
+
+
+@interface UITextView (SWIFT_EXTENSION(PayUCommonUI))
+- (void)payuCustomizeFont;
+@end
 
 
 @interface UIView (SWIFT_EXTENSION(PayUCommonUI))
 - (void)addPayULogo;
 - (void)removePayULogo;
+- (void)showPayULoaderWithMessage:(NSString * _Nonnull)message backgroundColor:(UIColor * _Nonnull)backgroundColor alpha:(CGFloat)alpha;
 - (void)showPayULoaderWith:(NSString * _Nonnull)message and:(UIColor * _Nonnull)backgroundColor;
 - (void)hidePayULoader;
 @end

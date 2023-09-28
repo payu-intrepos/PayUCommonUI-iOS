@@ -49,6 +49,16 @@ extension PayUCommonUI.PayULogoView {
   public static func getEventInfoJSON(withEventName event: Swift.String, eventData: [Swift.String : Any], startDate: Foundation.Date?, analyticsAdditionalInfo: PayUCommonUI.PayUAnalyticsAdditionalInfo?) -> [Swift.String : Any]
   @objc deinit
 }
+@objc public class PayUFontFamily : ObjectiveC.NSObject {
+  @objc public var regular: Swift.String
+  @objc public var medium: Swift.String
+  @objc public var semibold: Swift.String
+  @objc public var bold: Swift.String
+  @objc public init(regular: Swift.String, medium: Swift.String, semibold: Swift.String, bold: Swift.String)
+  @objc public static func set(fontFamily: PayUCommonUI.PayUFontFamily)
+  @objc public static func reset()
+  @objc deinit
+}
 public enum PayUAnalyticsKey : Swift.String, Swift.Codable {
   case merchantName
   case merchantIdentifier
@@ -158,6 +168,23 @@ public enum PayUAnalyticsStatusValue : Swift.String, Swift.Codable {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
   @objc deinit
 }
+extension UIKit.UIFont {
+  public var payuSDKFont: UIKit.UIFont {
+    get
+  }
+}
+extension UIKit.UIButton {
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func payuCustomizeFont()
+}
+extension UIKit.UILabel {
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func payuCustomizeFont()
+}
+extension UIKit.UITextField {
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func payuCustomizeFont()
+}
+extension UIKit.UITextView {
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func payuCustomizeFont()
+}
 @_inheritsConvenienceInitializers @objc public class PayUUIConfigurations : ObjectiveC.NSObject {
   @objc public var primaryColor: UIKit.UIColor
   @objc public var secondaryColor: UIKit.UIColor
@@ -167,6 +194,7 @@ public enum PayUAnalyticsStatusValue : Swift.String, Swift.Codable {
 @objc extension UIKit.UIView {
   @objc @_Concurrency.MainActor(unsafe) dynamic public func addPayULogo()
   @objc @_Concurrency.MainActor(unsafe) dynamic public func removePayULogo()
+  @objc @_Concurrency.MainActor(unsafe) dynamic public func showPayULoader(message: Swift.String = "", backgroundColor: UIKit.UIColor = .white, alpha: CoreFoundation.CGFloat = 1.0)
   @objc @_Concurrency.MainActor(unsafe) dynamic public func showPayULoader(with message: Swift.String = "", and backgroundColor: UIKit.UIColor = .white)
   @objc @_Concurrency.MainActor(unsafe) dynamic public func hidePayULoader()
 }
