@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
   s.documentation_url   = "https://devguide.payu.in/mobile-sdk-ios/introduction-to-payu-mobile-sdk/"
   s.platform            = :ios , "12.0"
   s.vendored_frameworks = 'PayUCommonUI.xcframework'
-  s.dependency            'PayUIndia-Analytics', '3.0'
+  s.dependency            'PayUIndia-Analytics', '~> 3.0'
 end
