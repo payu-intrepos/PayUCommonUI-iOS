@@ -3,6 +3,7 @@
 
 import PackageDescription
 let VERSION_ANALYTICS_KIT: PackageDescription.Version = "4.0.0"
+let VERSION_CRASH_REPORTER: PackageDescription.Version = "4.0.0"
 
 let package = Package(
     name: "PayUIndia-CommonUI",
@@ -14,6 +15,7 @@ let package = Package(
             targets: ["PayUIndia-CommonUITarget"])
     ],
     dependencies: [
+        .package(name: "PayUIndia-CrashReporter", url: "https://github.com/payu-intrepos/PayUCrashReporter-iOS.git", from: VERSION_CRASH_REPORTER),
         .package(name: "PayUIndia-Analytics", url: "https://github.com/payu-intrepos/PayUAnalytics-iOS.git", from: VERSION_ANALYTICS_KIT)
         ],
     targets: [
@@ -22,6 +24,7 @@ let package = Package(
             name: "PayUIndia-CommonUITarget",
             dependencies: [
                 .product(name: "PayUIndia-Analytics", package: "PayUIndia-Analytics"),
+                "PayUIndia-CrashReporter",
                 "PayUCommonUI"
             ],
             path: "Wrappers/PayUIndia-CommonUIWrapper"

@@ -17,4 +17,6 @@ Pod::Spec.new do |s|
   s.platform            = :ios , "13.0"
   s.vendored_frameworks = 'PayUCommonUI.xcframework'
   s.dependency            'PayUIndia-Analytics', '~> 4.0'
+  s.dependency            'PayUIndia-CrashReporter', '~> 4.0'
+
 end
