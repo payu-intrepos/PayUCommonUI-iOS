@@ -2,11 +2,11 @@
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
-let VERSION_ANALYTICS_KIT: PackageDescription.Version = "3.0.1"
+let VERSION_ANALYTICS_KIT: PackageDescription.Version = "4.0.0"
 
 let package = Package(
     name: "PayUIndia-CommonUI",
-    platforms: [.iOS(.v12)],
+    platforms: [.iOS(.v13)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
