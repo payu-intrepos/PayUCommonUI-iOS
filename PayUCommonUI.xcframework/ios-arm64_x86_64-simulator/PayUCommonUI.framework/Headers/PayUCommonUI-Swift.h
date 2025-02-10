@@ -401,6 +401,44 @@ SWIFT_CLASS("_TtC12PayUCommonUI12PayULogoView")
 
 
 
+
+SWIFT_CLASS("_TtC12PayUCommonUI19PayUScreenProtector")
+@interface PayUScreenProtector : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) PayUScreenProtector * _Nonnull shared;)
++ (PayUScreenProtector * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@property (nonatomic) BOOL isEnabled;
+- (void)startScreenshotProtectionFor:(UIView * _Nonnull)view;
+- (void)stopScreenshotProtectionFor:(UIView * _Nonnull)view;
+- (void)startScreenRecordingProtection;
+- (void)stopScreenRecordingProtection;
+@end
+
+@class UIWindow;
+
+IB_DESIGNABLE
+SWIFT_CLASS("_TtC12PayUCommonUI23PayUSecureContainerView")
+@interface PayUSecureContainerView : UIView
+- (void)layoutSubviews;
+- (void)willMoveToWindow:(UIWindow * _Nullable)newWindow;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+typedef SWIFT_ENUM(NSInteger, PayUToastPosition, open) {
+  PayUToastPositionCenter = 0,
+  PayUToastPositionBottom = 1,
+  PayUToastPositionTop = 2,
+};
+
+
+SWIFT_CLASS("_TtC12PayUCommonUI13PayUToastView")
+@interface PayUToastView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
 @class UIColor;
 
 SWIFT_CLASS("_TtC12PayUCommonUI20PayUUIConfigurations")
@@ -465,6 +503,13 @@ SWIFT_CLASS("_TtC12PayUCommonUI29PayUUserCancellationViewModel")
 @interface UITextView (SWIFT_EXTENSION(PayUCommonUI))
 - (void)payuCustomizeFont;
 @end
+
+@class UIImage;
+
+@interface UIView (SWIFT_EXTENSION(PayUCommonUI))
+- (void)showPayUToastWithImage:(UIImage * _Nullable)image message:(NSString * _Nonnull)message position:(enum PayUToastPosition)position;
+@end
+
 
 
 @interface UIView (SWIFT_EXTENSION(PayUCommonUI))
@@ -887,6 +932,44 @@ SWIFT_CLASS("_TtC12PayUCommonUI12PayULogoView")
 
 
 
+
+SWIFT_CLASS("_TtC12PayUCommonUI19PayUScreenProtector")
+@interface PayUScreenProtector : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) PayUScreenProtector * _Nonnull shared;)
++ (PayUScreenProtector * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@property (nonatomic) BOOL isEnabled;
+- (void)startScreenshotProtectionFor:(UIView * _Nonnull)view;
+- (void)stopScreenshotProtectionFor:(UIView * _Nonnull)view;
+- (void)startScreenRecordingProtection;
+- (void)stopScreenRecordingProtection;
+@end
+
+@class UIWindow;
+
+IB_DESIGNABLE
+SWIFT_CLASS("_TtC12PayUCommonUI23PayUSecureContainerView")
+@interface PayUSecureContainerView : UIView
+- (void)layoutSubviews;
+- (void)willMoveToWindow:(UIWindow * _Nullable)newWindow;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+typedef SWIFT_ENUM(NSInteger, PayUToastPosition, open) {
+  PayUToastPositionCenter = 0,
+  PayUToastPositionBottom = 1,
+  PayUToastPositionTop = 2,
+};
+
+
+SWIFT_CLASS("_TtC12PayUCommonUI13PayUToastView")
+@interface PayUToastView : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
 @class UIColor;
 
 SWIFT_CLASS("_TtC12PayUCommonUI20PayUUIConfigurations")
@@ -951,6 +1034,13 @@ SWIFT_CLASS("_TtC12PayUCommonUI29PayUUserCancellationViewModel")
 @interface UITextView (SWIFT_EXTENSION(PayUCommonUI))
 - (void)payuCustomizeFont;
 @end
+
+@class UIImage;
+
+@interface UIView (SWIFT_EXTENSION(PayUCommonUI))
+- (void)showPayUToastWithImage:(UIImage * _Nullable)image message:(NSString * _Nonnull)message position:(enum PayUToastPosition)position;
+@end
+
 
 
 @interface UIView (SWIFT_EXTENSION(PayUCommonUI))

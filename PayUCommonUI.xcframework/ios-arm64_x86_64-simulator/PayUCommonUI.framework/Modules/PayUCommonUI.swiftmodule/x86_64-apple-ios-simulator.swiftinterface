@@ -64,6 +64,22 @@ extension PayUCommonUI.PayULogoView {
   @objc public static func reset()
   @objc deinit
 }
+@objc public enum PayUToastPosition : Swift.Int {
+  case center
+  case bottom
+  case top
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor @preconcurrency public class PayUToastView : UIKit.UIView {
+  @objc deinit
+}
+extension UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func showPayUToast(image: UIKit.UIImage?, message: Swift.String, position: PayUCommonUI.PayUToastPosition)
+}
 public enum PayUAnalyticsKey : Swift.String, Swift.Codable {
   case merchantName
   case merchantIdentifier
@@ -214,10 +230,29 @@ extension PayUCommonUI.PayUUserCancellationView : UIKit.UITableViewDataSource, U
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForFooterInSection section: Swift.Int) -> UIKit.UIView?
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
 }
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class PayUScreenProtector : ObjectiveC.NSObject {
+  @objc public static let shared: PayUCommonUI.PayUScreenProtector
+  @objc public var isEnabled: Swift.Bool
+  @objc public func startScreenshotProtection(for view: UIKit.UIView)
+  @objc public func stopScreenshotProtection(for view: UIKit.UIView)
+  @objc public func startScreenRecordingProtection()
+  @objc public func stopScreenRecordingProtection()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor @preconcurrency public class PayUSecureContainerView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func willMove(toWindow newWindow: UIKit.UIWindow?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
 @objc public class PayUUserCancellationViewModel : ObjectiveC.NSObject {
   @objc public init(reasonList: [Swift.String]? = nil, headerText: Swift.String? = nil, analyticsAdditionalInfo: PayUCommonUI.PayUAnalyticsAdditionalInfo)
   @objc deinit
 }
+extension PayUCommonUI.PayUToastPosition : Swift.Equatable {}
+extension PayUCommonUI.PayUToastPosition : Swift.Hashable {}
+extension PayUCommonUI.PayUToastPosition : Swift.RawRepresentable {}
 extension PayUCommonUI.PayUAnalyticsKey : Swift.Equatable {}
 extension PayUCommonUI.PayUAnalyticsKey : Swift.Hashable {}
 extension PayUCommonUI.PayUAnalyticsKey : Swift.RawRepresentable {}
