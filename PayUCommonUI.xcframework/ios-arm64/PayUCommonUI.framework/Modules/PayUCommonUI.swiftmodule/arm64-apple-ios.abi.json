@@ -630,199 +630,6 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PayUCommonUI",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "PayULogoView",
-        "printedName": "PayULogoView",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(frame:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PayULogoView",
-                "printedName": "PayUCommonUI.PayULogoView",
-                "usr": "c:@M@PayUCommonUI@objc(cs)PayULogoView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGRect",
-                "printedName": "CoreFoundation.CGRect",
-                "usr": "c:@S@CGRect"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@PayUCommonUI@objc(cs)PayULogoView(im)initWithFrame:",
-            "mangledName": "$s12PayUCommonUI0A9ULogoViewC5frameACSo6CGRectV_tcfc",
-            "moduleName": "PayUCommonUI",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithFrame:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "animationDidStop",
-            "printedName": "animationDidStop(_:finished:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CAAnimation",
-                "printedName": "QuartzCore.CAAnimation",
-                "usr": "c:objc(cs)CAAnimation"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@PayUCommonUI@objc(cs)PayULogoView(im)animationDidStop:finished:",
-            "mangledName": "$s12PayUCommonUI0A9ULogoViewC16animationDidStop_8finishedySo11CAAnimationC_SbtF",
-            "moduleName": "PayUCommonUI",
-            "objc_name": "animationDidStop:finished:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@PayUCommonUI@objc(cs)PayULogoView",
-        "mangledName": "$s12PayUCommonUI0A9ULogoViewC",
-        "moduleName": "PayUCommonUI",
-        "declAttributes": [
-          "Preconcurrency",
-          "Custom",
-          "AccessControl",
-          "IBDesignable",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)UIView",
-        "hasMissingDesignatedInitializers": true,
-        "superclassNames": [
-          "UIKit.UIView",
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -5709,6 +5516,249 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PayUCommonUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PayULogoView",
+        "printedName": "PayULogoView",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "layoutSubviews",
+            "printedName": "layoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PayUCommonUI@objc(cs)PayULogoView(im)layoutSubviews",
+            "mangledName": "$s12PayUCommonUI0A9ULogoViewC14layoutSubviewsyyF",
+            "moduleName": "PayUCommonUI",
+            "overriding": true,
+            "objc_name": "layoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "draw",
+            "printedName": "draw(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PayUCommonUI@objc(cs)PayULogoView(im)drawRect:",
+            "mangledName": "$s12PayUCommonUI0A9ULogoViewC4drawyySo6CGRectVF",
+            "moduleName": "PayUCommonUI",
+            "overriding": true,
+            "objc_name": "drawRect:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeFromSuperview",
+            "printedName": "removeFromSuperview()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PayUCommonUI@objc(cs)PayULogoView(im)removeFromSuperview",
+            "mangledName": "$s12PayUCommonUI0A9ULogoViewC19removeFromSuperviewyyF",
+            "moduleName": "PayUCommonUI",
+            "overriding": true,
+            "objc_name": "removeFromSuperview",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PayULogoView",
+                "printedName": "PayUCommonUI.PayULogoView",
+                "usr": "c:@M@PayUCommonUI@objc(cs)PayULogoView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PayUCommonUI@objc(cs)PayULogoView(im)initWithFrame:",
+            "mangledName": "$s12PayUCommonUI0A9ULogoViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "PayUCommonUI",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PayUCommonUI@objc(cs)PayULogoView",
+        "mangledName": "$s12PayUCommonUI0A9ULogoViewC",
+        "moduleName": "PayUCommonUI",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "IBDesignable",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -6532,6 +6582,101 @@
                 "declKind": "Accessor",
                 "usr": "s:12PayUCommonUI0A9UBaseViewC15onHeightChangedy14CoreFoundation7CGFloatVcSgvM",
                 "mangledName": "$s12PayUCommonUI0A9UBaseViewC15onHeightChangedy12CoreGraphics7CGFloatVcSgvM",
+                "moduleName": "PayUCommonUI",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "touchDisabled",
+            "printedName": "touchDisabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PayUCommonUI@objc(cs)PayUBaseView(py)touchDisabled",
+            "mangledName": "$s12PayUCommonUI0A9UBaseViewC13touchDisabledSbvp",
+            "moduleName": "PayUCommonUI",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PayUCommonUI@objc(cs)PayUBaseView(im)touchDisabled",
+                "mangledName": "$s12PayUCommonUI0A9UBaseViewC13touchDisabledSbvg",
+                "moduleName": "PayUCommonUI",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PayUCommonUI@objc(cs)PayUBaseView(im)setTouchDisabled:",
+                "mangledName": "$s12PayUCommonUI0A9UBaseViewC13touchDisabledSbvs",
+                "moduleName": "PayUCommonUI",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12PayUCommonUI0A9UBaseViewC13touchDisabledSbvM",
+                "mangledName": "$s12PayUCommonUI0A9UBaseViewC13touchDisabledSbvM",
                 "moduleName": "PayUCommonUI",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -8510,6 +8655,88 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "payULoaderBoxColor",
+            "printedName": "payULoaderBoxColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So7UIColorC12PayUCommonUIE18payULoaderBoxColorABvpZ",
+            "mangledName": "$sSo7UIColorC12PayUCommonUIE18payULoaderBoxColorABvpZ",
+            "moduleName": "PayUCommonUI",
+            "static": true,
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So7UIColorC12PayUCommonUIE18payULoaderBoxColorABvgZ",
+                "mangledName": "$sSo7UIColorC12PayUCommonUIE18payULoaderBoxColorABvgZ",
+                "moduleName": "PayUCommonUI",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "payULoaderUColor",
+            "printedName": "payULoaderUColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So7UIColorC12PayUCommonUIE16payULoaderUColorABvpZ",
+            "mangledName": "$sSo7UIColorC12PayUCommonUIE16payULoaderUColorABvpZ",
+            "moduleName": "PayUCommonUI",
+            "static": true,
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So7UIColorC12PayUCommonUIE16payULoaderUColorABvgZ",
+                "mangledName": "$sSo7UIColorC12PayUCommonUIE16payULoaderUColorABvgZ",
+                "moduleName": "PayUCommonUI",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -8659,55 +8886,6 @@
             "mangledName": "$sSo6UIViewC12PayUCommonUIE04showB6UToast5image7message8positionySo7UIImageCSg_SSAC0bF8PositionOtF",
             "moduleName": "PayUCommonUI",
             "objc_name": "showPayUToastWithImage:message:position:",
-            "declAttributes": [
-              "Dynamic",
-              "Preconcurrency",
-              "Custom",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "addPayULogo",
-            "printedName": "addPayULogo()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@PayUCommonUI@@objc(cs)UIView(im)addPayULogo",
-            "mangledName": "$sSo6UIViewC12PayUCommonUIE03addB5ULogoyyF",
-            "moduleName": "PayUCommonUI",
-            "declAttributes": [
-              "Dynamic",
-              "Preconcurrency",
-              "Custom",
-              "RawDocComment",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "removePayULogo",
-            "printedName": "removePayULogo()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@PayUCommonUI@@objc(cs)UIView(im)removePayULogo",
-            "mangledName": "$sSo6UIViewC12PayUCommonUIE06removeB5ULogoyyF",
-            "moduleName": "PayUCommonUI",
             "declAttributes": [
               "Dynamic",
               "Preconcurrency",
@@ -9673,27 +9851,6 @@
       "value": "\"IOQ-IIE-OAUL\""
     },
     {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Views\/PayULogoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 380,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Views\/PayULogoView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15667,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Views\/PayULogoView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15702,
-      "length": 1,
-      "value": "0"
-    },
-    {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
       "kind": "StringLiteral",
       "offset": 171,
@@ -10128,6 +10285,55 @@
       "value": "\"Failed\""
     },
     {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Views\/PayULogoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 254,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Views\/PayULogoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 307,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Views\/PayULogoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 412,
+      "length": 4,
+      "value": "12.0"
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Views\/PayULogoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 526,
+      "length": 5,
+      "value": "133.0"
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Views\/PayULogoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 575,
+      "length": 5,
+      "value": "170.0"
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Views\/PayULogoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 620,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Views\/PayULogoView.swift",
+      "kind": "FloatLiteral",
+      "offset": 735,
+      "length": 4,
+      "value": "12.0"
+    },
+    {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Custom Overlay\/PayUCustomOverlay.swift",
       "kind": "FloatLiteral",
       "offset": 770,
@@ -10268,37 +10474,44 @@
       "value": "2"
     },
     {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Custom Classes\/PayUBaseView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 313,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Extensions\/PayULoaderViewExtension.swift",
       "kind": "StringLiteral",
-      "offset": 576,
+      "offset": 262,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Extensions\/PayULoaderViewExtension.swift",
       "kind": "FloatLiteral",
-      "offset": 648,
+      "offset": 334,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Extensions\/PayULoaderViewExtension.swift",
       "kind": "StringLiteral",
-      "offset": 827,
+      "offset": 513,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Extensions\/PayULoaderViewExtension.swift",
       "kind": "StringLiteral",
-      "offset": 1179,
+      "offset": 865,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Extensions\/PayULoaderViewExtension.swift",
       "kind": "FloatLiteral",
-      "offset": 1251,
+      "offset": 937,
       "length": 3,
       "value": "1.0"
     },

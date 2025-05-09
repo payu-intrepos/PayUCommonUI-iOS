@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		r+OaiBBHCE8STwShfhLEv4HngiU=
+		O3ajOmu/DPjh3d8xyLof3Uz3fuk=
 		</data>
 		<key>Headers/PayUCommonUI-Swift.h</key>
 		<data>
-		IsYksAyWNt9Y6zORYC7KHyrexvM=
+		kputySns8vNyn624TRrPI9SLqmE=
 		</data>
 		<key>Headers/PayUCommonUI.h</key>
 		<data>
@@ -18,27 +18,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		uXMlfm0jfOaesldjOfoQaDtF/PE=
+		xJF37psHfOHyGWRO1RW+aXfSMwY=
 		</data>
 		<key>Modules/PayUCommonUI.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		uICnPHnTe50hjEtAvRbWmwmb4hI=
+		IcY6Bh4mK5/3VdksMjO7qZS012s=
 		</data>
 		<key>Modules/PayUCommonUI.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		hMZChRySuVuKbjHyQx//6+y38Cg=
+		fOAe9D5v5GZaaFITI92/FyulpCc=
 		</data>
 		<key>Modules/PayUCommonUI.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Q9dDjqSQI7MTtX7CifBkGHtITyE=
+		KmjuGmetX1NJ998ozMOSC3NW7zY=
 		</data>
 		<key>Modules/PayUCommonUI.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		hMZChRySuVuKbjHyQx//6+y38Cg=
+		fOAe9D5v5GZaaFITI92/FyulpCc=
 		</data>
 		<key>Modules/PayUCommonUI.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		jkIFjjoilgIIzZWqU+oliVx/u0E=
+		gvqd5IVkNKvPh7pffH5zc2NdID4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>PayULoaderView.nib</key>
 		<data>
-		MPGNe46dbCcuKPcDXuSMMuUeqAM=
+		ahZQmHI1J//oWiXKGg/FX+HyDEE=
 		</data>
 		<key>PayUUserCancellationFooterView.nib</key>
 		<data>
@@ -79,14 +79,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UhKFNXTmYwpRywwvb+TY8Hn/cY/X1MA7Qh7EdJplGz4=
+			R3v7OWb5pqVT3Hk9290j+T+HaV6aLo984N0F04KY7m8=
 			</data>
 		</dict>
 		<key>Headers/PayUCommonUI-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cqXYJYq21PI9wC2qtWHucKQHf8uyLNTvw3MkBYGThsI=
+			BAk1PUx1pnDanleiMITxyW5XGDv6eDwChrRgSQ01ZJw=
 			</data>
 		</dict>
 		<key>Headers/PayUCommonUI.h</key>
@@ -100,35 +100,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LnUjHU2KY2S8HZ7W5LjBa7yUMzVZ/vPYAsjBPqpF0Cw=
+			Dxqfp1030ix1G1kanH5u43k9h2YTpZejQJMEBhvS3nE=
 			</data>
 		</dict>
 		<key>Modules/PayUCommonUI.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GFVeR3l8AYrlZkxo4wBwcCePTdOVho2hWW0D++XbgFQ=
+			ZjEDQRNmCPTtTHv8tCFEfOY1kxxbQqTG0cfPh1k2TuA=
 			</data>
 		</dict>
 		<key>Modules/PayUCommonUI.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IVQCy4CcFxLN0RFc5dgRozpBGpRBrNRhHEdI2nTx2E4=
+			txqgI/6KlmroIkXBr5yJ9qZjvQGkRzkc1GjR0xGI+cI=
 			</data>
 		</dict>
 		<key>Modules/PayUCommonUI.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GFVeR3l8AYrlZkxo4wBwcCePTdOVho2hWW0D++XbgFQ=
+			ZjEDQRNmCPTtTHv8tCFEfOY1kxxbQqTG0cfPh1k2TuA=
 			</data>
 		</dict>
 		<key>Modules/PayUCommonUI.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NpvFYNOhozU2Cw6uN6DKMAoGRwSUQpUn8vPaijP6rHE=
+			PY/1Kos89Md4O4khwt+PPts7hLbm6SfI98D+FvDixX0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -149,7 +149,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+Vj+Fg2Ra9Ce14xPpHWeA3CdxI9FFI4uWhyhwzH/Qcg=
+			mTH/5yRomsMrXrzsiaWX37C6CY3o5CVXzjTkY2tKrXw=
 			</data>
 		</dict>
 		<key>PayUUserCancellationFooterView.nib</key>
