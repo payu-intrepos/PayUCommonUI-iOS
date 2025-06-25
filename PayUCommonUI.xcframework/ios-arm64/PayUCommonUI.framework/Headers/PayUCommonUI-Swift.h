@@ -385,6 +385,7 @@ SWIFT_CLASS("_TtC12PayUCommonUI12PayULogoView")
 - (void)drawRect:(CGRect)rect;
 /// Call this when removing from superview to ensure animations stop
 - (void)removeFromSuperview;
+- (void)resetAnimation;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 

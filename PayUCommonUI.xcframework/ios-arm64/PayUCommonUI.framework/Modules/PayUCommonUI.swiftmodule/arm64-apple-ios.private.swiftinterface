@@ -43,15 +43,18 @@ extension UIKit.UIColor {
   @objc public init(forKibana analyticsAdditionalInfo: PayUCommonUI.PayUAnalyticsAdditionalInfo)
   public func logEvent<T>(withEventName eventName: Swift.String, eventData: T, startDate: Foundation.Date?) where T : Swift.Encodable
   @objc public func logEvent(withEventName eventName: Swift.String, eventData: [Swift.String : Any], startDate: Foundation.Date?)
+  public func logEvent<T>(withEventName eventName: Swift.String, eventData: T, startDate: Foundation.Date?, type: PayUCommonUI.EventType, severity: PayUCommonUI.Severity) where T : Swift.Encodable
   @objc public func log(json: [Swift.String : Any])
   @objc public func logKibanaEvent(json: [Swift.String : Any])
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class PayUAnalyticsUtils {
   public static func getJSON<T>(from object: T) -> [Swift.String : Any]? where T : Swift.Encodable
-  public static func getFilteredJSON(from json: [Swift.String : Any]) -> [Swift.String : Any]
+  public static func getFilteredJSON(from json: [Swift.String : Any?]) -> [Swift.String : Any]
   public static func getTimeDiffInSeconds(from startDate: Foundation.Date?) -> Swift.Double
-  public static func getEventInfoJSON(withEventName event: Swift.String, eventData: [Swift.String : Any], startDate: Foundation.Date?, analyticsAdditionalInfo: PayUCommonUI.PayUAnalyticsAdditionalInfo?) -> [Swift.String : Any]
+  public static func getJSONString(from json: [Swift.String : Any]) -> Swift.String?
+  public static func convertStringInToJson(stringJson: Swift.String) -> [Swift.String : Any?]?
+  public static func getEventInfoJSON(withEventName event: Swift.String, eventData: [Swift.String : Any], startDate: Foundation.Date?, analyticsAdditionalInfo: PayUCommonUI.PayUAnalyticsAdditionalInfo?, type: PayUCommonUI.EventType = .info, severity: PayUCommonUI.Severity = .low) -> [Swift.String : Any]
   @objc deinit
 }
 @objc public class PayUFontFamily : ObjectiveC.NSObject {
@@ -106,6 +109,9 @@ public enum PayUAnalyticsKey : Swift.String, Swift.Codable {
   case deviceVersion
   case sdkVersion
   case isOn
+  case eventType
+  case eventSeverity
+  case screenName
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -158,6 +164,24 @@ public enum PayUAnalyticsStatusValue : Swift.String, Swift.Codable {
     get
   }
 }
+public enum EventType : Swift.String {
+  case error
+  case info
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum Severity : Swift.String {
+  case high
+  case low
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 @_inheritsConvenienceInitializers @objc public class PayUAnalyticsAdditionalInfo : ObjectiveC.NSObject {
   @objc public var transactionId: Swift.String?
   @objc public var transactionAmount: Swift.String?
@@ -177,6 +201,7 @@ public enum PayUAnalyticsStatusValue : Swift.String, Swift.Codable {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func draw(_ rect: CoreFoundation.CGRect)
   @objc deinit
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func removeFromSuperview()
+  @objc @_Concurrency.MainActor @preconcurrency public func resetAnimation()
 }
 @_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class PayUCustomOverlay : PayUCommonUI.PayUBaseView {
   @objc @_Concurrency.MainActor @preconcurrency public var animationDuration: Swift.Double
@@ -276,3 +301,9 @@ extension PayUCommonUI.PayUAnalyticsBoolValue : Swift.RawRepresentable {}
 extension PayUCommonUI.PayUAnalyticsStatusValue : Swift.Equatable {}
 extension PayUCommonUI.PayUAnalyticsStatusValue : Swift.Hashable {}
 extension PayUCommonUI.PayUAnalyticsStatusValue : Swift.RawRepresentable {}
+extension PayUCommonUI.EventType : Swift.Equatable {}
+extension PayUCommonUI.EventType : Swift.Hashable {}
+extension PayUCommonUI.EventType : Swift.RawRepresentable {}
+extension PayUCommonUI.Severity : Swift.Equatable {}
+extension PayUCommonUI.Severity : Swift.Hashable {}
+extension PayUCommonUI.Severity : Swift.RawRepresentable {}
