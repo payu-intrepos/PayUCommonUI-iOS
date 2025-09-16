@@ -502,6 +502,80 @@
           },
           {
             "kind": "Function",
+            "name": "logKibanaEvent",
+            "printedName": "logKibanaEvent(eventData:eventName:startDate:type:severity:eventStatus:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EventType",
+                "printedName": "PayUCommonUI.EventType",
+                "usr": "s:12PayUCommonUI9EventTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Severity",
+                "printedName": "PayUCommonUI.Severity",
+                "usr": "s:12PayUCommonUI8SeverityO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PayUCommonUI.EventStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventStatus",
+                    "printedName": "PayUCommonUI.EventStatus",
+                    "usr": "s:12PayUCommonUI11EventStatusO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PayUCommonUI0A17UAnalyticsManagerC14logKibanaEvent9eventData0I4Name9startDate4type8severity0I6Statusyx_SS10Foundation0M0VSgAA0H4TypeOAA8SeverityOAA0hP0OSgtSERzlF",
+            "mangledName": "$s12PayUCommonUI0A17UAnalyticsManagerC14logKibanaEvent9eventData0I4Name9startDate4type8severity0I6Statusyx_SS10Foundation0M0VSgAA0H4TypeOAA8SeverityOAA0hP0OSgtSERzlF",
+            "moduleName": "PayUCommonUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "log",
             "printedName": "log(json:)",
             "children": [
@@ -970,6 +1044,63 @@
           },
           {
             "kind": "Function",
+            "name": "convertJSONInToString",
+            "printedName": "convertJSONInToString(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any?]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PayUCommonUI0A15UAnalyticsUtilsC21convertJSONInToString4fromSSSgSDySSypSgG_tFZ",
+            "mangledName": "$s12PayUCommonUI0A15UAnalyticsUtilsC21convertJSONInToString4fromSSSgSDySSypSgG_tFZ",
+            "moduleName": "PayUCommonUI",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getEventInfoJSON",
             "printedName": "getEventInfoJSON(withEventName:eventData:startDate:analyticsAdditionalInfo:type:severity:)",
             "children": [
@@ -1063,6 +1194,124 @@
             "declKind": "Func",
             "usr": "s:12PayUCommonUI0A15UAnalyticsUtilsC16getEventInfoJSON04withG4Name9eventData9startDate019analyticsAdditionalH04type8severitySDySSypGSS_AK10Foundation0O0VSgAA0adqH0CSgAA0G4TypeOAA8SeverityOtFZ",
             "mangledName": "$s12PayUCommonUI0A15UAnalyticsUtilsC16getEventInfoJSON04withG4Name9eventData9startDate019analyticsAdditionalH04type8severitySDySSypGSS_AK10Foundation0O0VSgAA0adqH0CSgAA0G4TypeOAA8SeverityOtFZ",
+            "moduleName": "PayUCommonUI",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getKibanaEventInfoJSON",
+            "printedName": "getKibanaEventInfoJSON(withEventName:eventData:startDate:analyticsAdditionalInfo:type:severity:status:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PayUCommonUI.PayUAnalyticsAdditionalInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PayUAnalyticsAdditionalInfo",
+                    "printedName": "PayUCommonUI.PayUAnalyticsAdditionalInfo",
+                    "usr": "c:@M@PayUCommonUI@objc(cs)PayUAnalyticsAdditionalInfo"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EventType",
+                "printedName": "PayUCommonUI.EventType",
+                "hasDefaultArg": true,
+                "usr": "s:12PayUCommonUI9EventTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Severity",
+                "printedName": "PayUCommonUI.Severity",
+                "hasDefaultArg": true,
+                "usr": "s:12PayUCommonUI8SeverityO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PayUCommonUI.EventStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventStatus",
+                    "printedName": "PayUCommonUI.EventStatus",
+                    "usr": "s:12PayUCommonUI11EventStatusO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12PayUCommonUI0A15UAnalyticsUtilsC22getKibanaEventInfoJSON04withH4Name9eventData9startDate019analyticsAdditionalI04type8severity6statusSDySSypGSS_AL10Foundation0P0VSgAA0adrI0CSgAA0H4TypeOAA8SeverityOAA0H6StatusOSgtFZ",
+            "mangledName": "$s12PayUCommonUI0A15UAnalyticsUtilsC22getKibanaEventInfoJSON04withH4Name9eventData9startDate019analyticsAdditionalI04type8severity6statusSDySSypGSS_AL10Foundation0P0VSgAA0adrI0CSgAA0H4TypeOAA8SeverityOAA0H6StatusOSgtFZ",
             "moduleName": "PayUCommonUI",
             "static": true,
             "declAttributes": [
@@ -1696,6 +1945,16 @@
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PayUCommonUI",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -4871,6 +5130,219 @@
         "declKind": "Enum",
         "usr": "s:12PayUCommonUI8SeverityO",
         "mangledName": "$s12PayUCommonUI8SeverityO",
+        "moduleName": "PayUCommonUI",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EventStatus",
+        "printedName": "EventStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PayUCommonUI.EventStatus.Type) -> PayUCommonUI.EventStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventStatus",
+                    "printedName": "PayUCommonUI.EventStatus",
+                    "usr": "s:12PayUCommonUI11EventStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PayUCommonUI.EventStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventStatus",
+                        "printedName": "PayUCommonUI.EventStatus",
+                        "usr": "s:12PayUCommonUI11EventStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PayUCommonUI11EventStatusO7successyA2CmF",
+            "mangledName": "$s12PayUCommonUI11EventStatusO7successyA2CmF",
+            "moduleName": "PayUCommonUI"
+          },
+          {
+            "kind": "Var",
+            "name": "failure",
+            "printedName": "failure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PayUCommonUI.EventStatus.Type) -> PayUCommonUI.EventStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventStatus",
+                    "printedName": "PayUCommonUI.EventStatus",
+                    "usr": "s:12PayUCommonUI11EventStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PayUCommonUI.EventStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventStatus",
+                        "printedName": "PayUCommonUI.EventStatus",
+                        "usr": "s:12PayUCommonUI11EventStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12PayUCommonUI11EventStatusO7failureyA2CmF",
+            "mangledName": "$s12PayUCommonUI11EventStatusO7failureyA2CmF",
+            "moduleName": "PayUCommonUI"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PayUCommonUI.EventStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventStatus",
+                    "printedName": "PayUCommonUI.EventStatus",
+                    "usr": "s:12PayUCommonUI11EventStatusO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12PayUCommonUI11EventStatusO8rawValueACSgSS_tcfc",
+            "mangledName": "$s12PayUCommonUI11EventStatusO8rawValueACSgSS_tcfc",
+            "moduleName": "PayUCommonUI",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12PayUCommonUI11EventStatusO8rawValueSSvp",
+            "mangledName": "$s12PayUCommonUI11EventStatusO8rawValueSSvp",
+            "moduleName": "PayUCommonUI",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12PayUCommonUI11EventStatusO8rawValueSSvg",
+                "mangledName": "$s12PayUCommonUI11EventStatusO8rawValueSSvg",
+                "moduleName": "PayUCommonUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12PayUCommonUI11EventStatusO",
+        "mangledName": "$s12PayUCommonUI11EventStatusO",
         "moduleName": "PayUCommonUI",
         "declAttributes": [
           "AccessControl"
@@ -10995,93 +11467,114 @@
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1173,
+      "offset": 1699,
       "length": 15,
       "value": "\"Quick options\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1212,
+      "offset": 1738,
       "length": 14,
       "value": "\"More options\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1250,
+      "offset": 1776,
       "length": 14,
       "value": "\"Left Sidebar\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1423,
+      "offset": 1949,
       "length": 8,
       "value": "\"Action\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1448,
+      "offset": 1974,
       "length": 6,
       "value": "\"View\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1529,
+      "offset": 2055,
       "length": 5,
       "value": "\"Yes\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1549,
+      "offset": 2075,
       "length": 4,
       "value": "\"No\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1636,
+      "offset": 2162,
       "length": 11,
       "value": "\"Completed\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1666,
+      "offset": 2192,
       "length": 8,
       "value": "\"Failed\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1728,
+      "offset": 2254,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1752,
+      "offset": 2278,
       "length": 6,
       "value": "\"Info\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1809,
+      "offset": 2335,
       "length": 6,
       "value": "\"High\""
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
-      "offset": 1831,
+      "offset": 2357,
       "length": 5,
       "value": "\"Low\""
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2419,
+      "length": 9,
+      "value": "\"Success\""
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 2448,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "kind": "Dictionary",
+      "offset": 3009,
+      "length": 466,
+      "value": "[(\"cardNumber\", \"\"), (\"userToken\", \"\"), (\"userCredential\", \"\"), (\"userCredentials\", \"\"), (\"phoneNumber\", \"\"), (\"merchant_key\", \"\"), (\"key\", \"\"), (\"mobileNumber\", \"\"), (\"phone\", \"\"), (\"mobileNo\", \"\"), (\"accountNo\", \"\"), (\"accountId\", \"\"), (\"accountNumber\", \"\"), (\"unqCustId\", \"\"), (\"vpa\", \"\"), (\"virtualAddress\", \"\"), (\"bank_ref_no\", \"\"), (\"email\", \"\")]"
     },
     {
       "filePath": "\/Users\/amit.salaria\/Documents\/Gitlab\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Views\/PayULogoView.swift",

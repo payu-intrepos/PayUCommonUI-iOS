@@ -44,6 +44,7 @@ extension UIKit.UIColor {
   public func logEvent<T>(withEventName eventName: Swift.String, eventData: T, startDate: Foundation.Date?) where T : Swift.Encodable
   @objc public func logEvent(withEventName eventName: Swift.String, eventData: [Swift.String : Any], startDate: Foundation.Date?)
   public func logEvent<T>(withEventName eventName: Swift.String, eventData: T, startDate: Foundation.Date?, type: PayUCommonUI.EventType, severity: PayUCommonUI.Severity) where T : Swift.Encodable
+  public func logKibanaEvent<T>(eventData: T, eventName: Swift.String, startDate: Foundation.Date?, type: PayUCommonUI.EventType, severity: PayUCommonUI.Severity, eventStatus: PayUCommonUI.EventStatus? = nil) where T : Swift.Encodable
   @objc public func log(json: [Swift.String : Any])
   @objc public func logKibanaEvent(json: [Swift.String : Any])
   @objc deinit
@@ -54,7 +55,9 @@ extension UIKit.UIColor {
   public static func getTimeDiffInSeconds(from startDate: Foundation.Date?) -> Swift.Double
   public static func getJSONString(from json: [Swift.String : Any]) -> Swift.String?
   public static func convertStringInToJson(stringJson: Swift.String) -> [Swift.String : Any?]?
+  public class func convertJSONInToString(from json: [Swift.String : Any?]) -> Swift.String?
   public static func getEventInfoJSON(withEventName event: Swift.String, eventData: [Swift.String : Any], startDate: Foundation.Date?, analyticsAdditionalInfo: PayUCommonUI.PayUAnalyticsAdditionalInfo?, type: PayUCommonUI.EventType = .info, severity: PayUCommonUI.Severity = .low) -> [Swift.String : Any]
+  public static func getKibanaEventInfoJSON(withEventName event: Swift.String, eventData: [Swift.String : Any], startDate: Foundation.Date?, analyticsAdditionalInfo: PayUCommonUI.PayUAnalyticsAdditionalInfo?, type: PayUCommonUI.EventType = .info, severity: PayUCommonUI.Severity = .low, status: PayUCommonUI.EventStatus? = nil) -> [Swift.String : Any]
   @objc deinit
 }
 @objc public class PayUFontFamily : ObjectiveC.NSObject {
@@ -176,6 +179,15 @@ public enum EventType : Swift.String {
 public enum Severity : Swift.String {
   case high
   case low
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum EventStatus : Swift.String {
+  case success
+  case failure
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -307,3 +319,6 @@ extension PayUCommonUI.EventType : Swift.RawRepresentable {}
 extension PayUCommonUI.Severity : Swift.Equatable {}
 extension PayUCommonUI.Severity : Swift.Hashable {}
 extension PayUCommonUI.Severity : Swift.RawRepresentable {}
+extension PayUCommonUI.EventStatus : Swift.Equatable {}
+extension PayUCommonUI.EventStatus : Swift.Hashable {}
+extension PayUCommonUI.EventStatus : Swift.RawRepresentable {}
