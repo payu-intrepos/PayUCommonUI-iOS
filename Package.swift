@@ -16,7 +16,7 @@ let package = Package(
     ],
     dependencies: [
         .package(name: "PayUIndia-CrashReporter", url: "https://github.com/payu-intrepos/PayUCrashReporter-iOS.git", from: VERSION_CRASH_REPORTER),
-        .package(name: "PayUIndia-Analytics", url: "https://github.com/payu-intrepos/PayUAnalytics-iOS.git", from: VERSION_ANALYTICS_KIT)
+        .package(name: "PayUIndia-Analytics", url: "https://github.com/payu-intrepos/PayUAnalytics-iOS.git", branch: "alpha")
         ],
     targets: [
         .binaryTarget(name: "PayUCommonUI", path: "./PayUCommonUI.xcframework"),
