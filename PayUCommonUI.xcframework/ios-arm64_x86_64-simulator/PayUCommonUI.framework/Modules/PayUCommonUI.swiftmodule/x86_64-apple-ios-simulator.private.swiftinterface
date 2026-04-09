@@ -274,7 +274,10 @@ extension PayUCommonUI.PayUUserCancellationView : UIKit.UITableViewDataSource, U
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class PayUScreenProtector : ObjectiveC.NSObject {
   @objc public static let shared: PayUCommonUI.PayUScreenProtector
-  @objc public var isEnabled: Swift.Bool
+  @objc public var isEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
   @objc public func startScreenshotProtection(for view: UIKit.UIView)
   @objc public func stopScreenshotProtection(for view: UIKit.UIView)
   @objc public func startScreenRecordingProtection()

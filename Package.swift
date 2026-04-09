@@ -3,7 +3,7 @@
 
 import PackageDescription
 let VERSION_ANALYTICS_KIT: PackageDescription.Version = "4.0.2"
-let VERSION_CRASH_REPORTER: PackageDescription.Version = "4.0.1"
+let VERSION_CRASH_REPORTER: PackageDescription.Version = "4.0.3"
 
 let package = Package(
     name: "PayUIndia-CommonUI",

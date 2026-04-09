@@ -6991,6 +6991,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PayUCommonUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -8979,12 +8989,9 @@
             "mangledName": "$s12PayUCommonUI0A16UScreenProtectorC9isEnabledSbvp",
             "moduleName": "PayUCommonUI",
             "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
-            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -9002,7 +9009,6 @@
                 "usr": "c:@M@PayUCommonUI@objc(cs)PayUScreenProtector(im)isEnabled",
                 "mangledName": "$s12PayUCommonUI0A16UScreenProtectorC9isEnabledSbvg",
                 "moduleName": "PayUCommonUI",
-                "implicit": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -9029,7 +9035,6 @@
                 "usr": "c:@M@PayUCommonUI@objc(cs)PayUScreenProtector(im)setIsEnabled:",
                 "mangledName": "$s12PayUCommonUI0A16UScreenProtectorC9isEnabledSbvs",
                 "moduleName": "PayUCommonUI",
-                "implicit": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -11059,854 +11064,854 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsManager.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsManager.swift",
       "kind": "StringLiteral",
       "offset": 209,
       "length": 14,
       "value": "\"WR7-R6W-646Z\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsManager.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsManager.swift",
       "kind": "StringLiteral",
       "offset": 249,
       "length": 14,
       "value": "\"IOQ-IIE-OAUL\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
       "kind": "StringLiteral",
       "offset": 171,
       "length": 8,
       "value": "\"square\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
       "kind": "StringLiteral",
       "offset": 205,
       "length": 9,
       "value": "\"square2\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
       "kind": "StringLiteral",
       "offset": 240,
       "length": 9,
       "value": "\"square3\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
       "kind": "StringLiteral",
       "offset": 269,
       "length": 3,
       "value": "\"u\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
       "kind": "StringLiteral",
       "offset": 294,
       "length": 5,
       "value": "\"pay\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
       "kind": "StringLiteral",
       "offset": 337,
       "length": 21,
       "value": "\"completionAnimation\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
       "kind": "StringLiteral",
       "offset": 383,
       "length": 8,
       "value": "\"loader\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
       "kind": "StringLiteral",
       "offset": 416,
       "length": 8,
       "value": "\"animId\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
       "kind": "StringLiteral",
       "offset": 459,
       "length": 18,
       "value": "\"needEndAnimation\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
       "kind": "StringLiteral",
       "offset": 514,
       "length": 20,
       "value": "\"payLoaderAnimation\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
       "kind": "StringLiteral",
       "offset": 569,
       "length": 18,
       "value": "\"uLoaderAnimation\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
       "kind": "StringLiteral",
       "offset": 627,
       "length": 23,
       "value": "\"squareLoaderAnimation\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
       "kind": "StringLiteral",
       "offset": 691,
       "length": 24,
       "value": "\"square2LoaderAnimation\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
       "kind": "StringLiteral",
       "offset": 756,
       "length": 24,
       "value": "\"square3LoaderAnimation\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
       "kind": "StringLiteral",
       "offset": 807,
       "length": 10,
       "value": "\"position\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
       "kind": "StringLiteral",
       "offset": 842,
       "length": 8,
       "value": "\"hidden\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
       "kind": "StringLiteral",
       "offset": 878,
       "length": 11,
       "value": "\"transform\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
       "kind": "StringLiteral",
       "offset": 915,
       "length": 9,
       "value": "\"opacity\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
       "kind": "StringLiteral",
       "offset": 951,
       "length": 10,
       "value": "\"PayULogo\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
       "kind": "StringLiteral",
       "offset": 994,
       "length": 16,
       "value": "\"PayULoaderView\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
       "kind": "StringLiteral",
       "offset": 1036,
       "length": 9,
       "value": "\"Loading\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
       "kind": "StringLiteral",
       "offset": 1068,
       "length": 5,
       "value": "\"...\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
       "kind": "StringLiteral",
       "offset": 1105,
       "length": 15,
       "value": "\"instanceDelay\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Constants\/PayULoaderConstants.swift",
       "kind": "StringLiteral",
       "offset": 1142,
       "length": 5,
       "value": "\"nib\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/ToastView\/PayUToastView.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/ToastView\/PayUToastView.swift",
       "kind": "IntegerLiteral",
       "offset": 192,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/ToastView\/PayUToastView.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/ToastView\/PayUToastView.swift",
       "kind": "IntegerLiteral",
       "offset": 208,
       "length": 3,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/ToastView\/PayUToastView.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/ToastView\/PayUToastView.swift",
       "kind": "BooleanLiteral",
       "offset": 499,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/ToastView\/PayUToastView.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/ToastView\/PayUToastView.swift",
       "kind": "IntegerLiteral",
       "offset": 643,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/ToastView\/PayUToastView.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/ToastView\/PayUToastView.swift",
       "kind": "IntegerLiteral",
       "offset": 763,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/ToastView\/PayUToastView.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/ToastView\/PayUToastView.swift",
       "kind": "BooleanLiteral",
       "offset": 825,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/ToastView\/PayUToastView.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/ToastView\/PayUToastView.swift",
       "kind": "StringLiteral",
       "offset": 971,
       "length": 3,
       "value": "\"X\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/ToastView\/PayUToastView.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/ToastView\/PayUToastView.swift",
       "kind": "BooleanLiteral",
       "offset": 1089,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 193,
       "length": 15,
       "value": "\"Merchant Name\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 239,
       "length": 21,
       "value": "\"Merchant Identifier\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 277,
       "length": 6,
       "value": "\"Time\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 302,
       "length": 19,
       "value": "\"Time milliseconds\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 340,
       "length": 8,
       "value": "\"Device\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 369,
       "length": 11,
       "value": "\"Device id\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 399,
       "length": 8,
       "value": "\"Amount\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 441,
       "length": 24,
       "value": "\"Transaction identifier\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 486,
       "length": 10,
       "value": "\"Enforced\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 522,
       "length": 17,
       "value": "\"Offer tag shown\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 564,
       "length": 15,
       "value": "\"Offer applied\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 603,
       "length": 14,
       "value": "\"VPA Verified\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 637,
       "length": 10,
       "value": "\"CTA type\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 667,
       "length": 10,
       "value": "\"CTA page\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 697,
       "length": 10,
       "value": "\"CTA name\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 773,
       "length": 9,
       "value": "\"evtName\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 804,
       "length": 9,
       "value": "\"evtData\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 837,
       "length": 14,
       "value": "\"Section name\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 874,
       "length": 13,
       "value": "\"Device name\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 913,
       "length": 16,
       "value": "\"Device version\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 952,
       "length": 13,
       "value": "\"SDK version\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 1001,
       "length": 11,
       "value": "\"eventType\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 1038,
       "length": 15,
       "value": "\"eventSeverity\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 1076,
       "length": 12,
       "value": "\"screenName\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 1699,
       "length": 15,
       "value": "\"Quick options\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 1738,
       "length": 14,
       "value": "\"More options\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 1776,
       "length": 14,
       "value": "\"Left Sidebar\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 1949,
       "length": 8,
       "value": "\"Action\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 1974,
       "length": 6,
       "value": "\"View\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 2055,
       "length": 5,
       "value": "\"Yes\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 2075,
       "length": 4,
       "value": "\"No\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 2162,
       "length": 11,
       "value": "\"Completed\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 2192,
       "length": 8,
       "value": "\"Failed\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 2254,
       "length": 7,
       "value": "\"Error\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 2278,
       "length": 6,
       "value": "\"Info\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 2335,
       "length": 6,
       "value": "\"High\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 2357,
       "length": 5,
       "value": "\"Low\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 2419,
       "length": 9,
       "value": "\"Success\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "StringLiteral",
       "offset": 2448,
       "length": 9,
       "value": "\"Failure\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Analytics\/PayUAnalyticsConstants.swift",
       "kind": "Dictionary",
       "offset": 3009,
       "length": 466,
       "value": "[(\"cardNumber\", \"\"), (\"userToken\", \"\"), (\"userCredential\", \"\"), (\"userCredentials\", \"\"), (\"phoneNumber\", \"\"), (\"merchant_key\", \"\"), (\"key\", \"\"), (\"mobileNumber\", \"\"), (\"phone\", \"\"), (\"mobileNo\", \"\"), (\"accountNo\", \"\"), (\"accountId\", \"\"), (\"accountNumber\", \"\"), (\"unqCustId\", \"\"), (\"vpa\", \"\"), (\"virtualAddress\", \"\"), (\"bank_ref_no\", \"\"), (\"email\", \"\")]"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Views\/PayULogoView.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Views\/PayULogoView.swift",
       "kind": "FloatLiteral",
       "offset": 254,
       "length": 4,
       "value": "0.25"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Views\/PayULogoView.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Views\/PayULogoView.swift",
       "kind": "FloatLiteral",
       "offset": 308,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Views\/PayULogoView.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Views\/PayULogoView.swift",
       "kind": "FloatLiteral",
       "offset": 406,
       "length": 4,
       "value": "12.0"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Views\/PayULogoView.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Views\/PayULogoView.swift",
       "kind": "FloatLiteral",
       "offset": 520,
       "length": 5,
       "value": "133.0"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Views\/PayULogoView.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Views\/PayULogoView.swift",
       "kind": "FloatLiteral",
       "offset": 569,
       "length": 5,
       "value": "170.0"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Views\/PayULogoView.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Views\/PayULogoView.swift",
       "kind": "BooleanLiteral",
       "offset": 614,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Views\/PayULogoView.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Views\/PayULogoView.swift",
       "kind": "FloatLiteral",
       "offset": 729,
       "length": 4,
       "value": "12.0"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Custom Overlay\/PayUCustomOverlay.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Custom Overlay\/PayUCustomOverlay.swift",
       "kind": "FloatLiteral",
       "offset": 770,
       "length": 4,
       "value": "0.25"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Custom Overlay\/PayUCustomOverlay.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Custom Overlay\/PayUCustomOverlay.swift",
       "kind": "BooleanLiteral",
       "offset": 1158,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Custom Overlay\/PayUCustomOverlay.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Custom Overlay\/PayUCustomOverlay.swift",
       "kind": "BooleanLiteral",
       "offset": 1194,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/User Cancellation\/Constants\/PayUUserCancellationConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/User Cancellation\/Constants\/PayUUserCancellationConstants.swift",
       "kind": "Array",
       "offset": 199,
       "length": 171,
       "value": "[\"I forgot the bank username\/ password\", \"Bank page is not opening properly\", \"Unable to authenticate using password\/ OTP\", \"Others\"]"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/User Cancellation\/Constants\/PayUUserCancellationConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/User Cancellation\/Constants\/PayUUserCancellationConstants.swift",
       "kind": "StringLiteral",
       "offset": 402,
       "length": 42,
       "value": "\"Enter details                           \""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/User Cancellation\/Constants\/PayUUserCancellationConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/User Cancellation\/Constants\/PayUUserCancellationConstants.swift",
       "kind": "StringLiteral",
       "offset": 476,
       "length": 72,
       "value": "\"Your payment got cancelled. Please help us understand what went wrong?\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/User Cancellation\/Constants\/PayUUserCancellationConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/User Cancellation\/Constants\/PayUUserCancellationConstants.swift",
       "kind": "StringLiteral",
       "offset": 575,
       "length": 10,
       "value": "\"CTA name\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/User Cancellation\/Constants\/PayUUserCancellationConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/User Cancellation\/Constants\/PayUUserCancellationConstants.swift",
       "kind": "StringLiteral",
       "offset": 614,
       "length": 13,
       "value": "\"Back button\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/User Cancellation\/Constants\/PayUUserCancellationConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/User Cancellation\/Constants\/PayUUserCancellationConstants.swift",
       "kind": "StringLiteral",
       "offset": 649,
       "length": 5,
       "value": "\"msg\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/User Cancellation\/Constants\/PayUUserCancellationConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/User Cancellation\/Constants\/PayUUserCancellationConstants.swift",
       "kind": "StringLiteral",
       "offset": 681,
       "length": 34,
       "value": "\"PayU - Information not available\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/User Cancellation\/Constants\/PayUUserCancellationConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/User Cancellation\/Constants\/PayUUserCancellationConstants.swift",
       "kind": "StringLiteral",
       "offset": 741,
       "length": 16,
       "value": "\"PayU - Skipped\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/User Cancellation\/Constants\/PayUUserCancellationConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/User Cancellation\/Constants\/PayUUserCancellationConstants.swift",
       "kind": "IntegerLiteral",
       "offset": 790,
       "length": 3,
       "value": "150"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/User Cancellation\/Constants\/PayUUserCancellationConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/User Cancellation\/Constants\/PayUUserCancellationConstants.swift",
       "kind": "StringLiteral",
       "offset": 815,
       "length": 5,
       "value": "\"URL\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/User Cancellation\/Constants\/PayUUserCancellationConstants.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/User Cancellation\/Constants\/PayUUserCancellationConstants.swift",
       "kind": "StringLiteral",
       "offset": 854,
       "length": 10,
       "value": "\"URLState\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Extensions\/UIView.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Extensions\/UIView.swift",
       "kind": "IntegerLiteral",
       "offset": 2005,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Extensions\/UIView.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Extensions\/UIView.swift",
       "kind": "FloatLiteral",
       "offset": 2221,
       "length": 4,
       "value": "0.05"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Extensions\/UIView.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Extensions\/UIView.swift",
       "kind": "IntegerLiteral",
       "offset": 2248,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Extensions\/UIView.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Extensions\/UIView.swift",
       "kind": "IntegerLiteral",
       "offset": 2272,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Extensions\/UIView.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Extensions\/UIView.swift",
       "kind": "IntegerLiteral",
       "offset": 2299,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Extensions\/UIView.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Extensions\/UIView.swift",
       "kind": "IntegerLiteral",
       "offset": 2329,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Custom Classes\/PayUBaseView.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Custom Classes\/PayUBaseView.swift",
       "kind": "BooleanLiteral",
       "offset": 313,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Extensions\/PayULoaderViewExtension.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Extensions\/PayULoaderViewExtension.swift",
       "kind": "StringLiteral",
       "offset": 262,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Extensions\/PayULoaderViewExtension.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Extensions\/PayULoaderViewExtension.swift",
       "kind": "FloatLiteral",
       "offset": 334,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Extensions\/PayULoaderViewExtension.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Extensions\/PayULoaderViewExtension.swift",
       "kind": "StringLiteral",
       "offset": 513,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Extensions\/PayULoaderViewExtension.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Extensions\/PayULoaderViewExtension.swift",
       "kind": "StringLiteral",
       "offset": 865,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Loader\/Extensions\/PayULoaderViewExtension.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Loader\/Extensions\/PayULoaderViewExtension.swift",
       "kind": "FloatLiteral",
       "offset": 937,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/User Cancellation\/Views\/PayUUserCancellationView.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/User Cancellation\/Views\/PayUUserCancellationView.swift",
       "kind": "Array",
       "offset": 1453,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Screen Protector\/PayUScreenProtector.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Screen Protector\/PayUScreenProtector.swift",
       "kind": "BooleanLiteral",
-      "offset": 331,
+      "offset": 603,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Screen Protector\/PayUScreenProtector.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Screen Protector\/PayUScreenProtector.swift",
       "kind": "StringLiteral",
-      "offset": 427,
+      "offset": 694,
       "length": 55,
       "value": "\"Screen recording restricted for privacy and copyright\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/Screen Protector\/PayUScreenProtector.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/Screen Protector\/PayUScreenProtector.swift",
       "kind": "BooleanLiteral",
-      "offset": 5074,
+      "offset": 5341,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/User Cancellation\/View Model\/PayUUserCancellationViewModel.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/User Cancellation\/View Model\/PayUUserCancellationViewModel.swift",
       "kind": "IntegerLiteral",
       "offset": 358,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/User Cancellation\/View Model\/PayUUserCancellationViewModel.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/User Cancellation\/View Model\/PayUUserCancellationViewModel.swift",
       "kind": "StringLiteral",
       "offset": 392,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/PayU\/one-payu-ui-sdk-ios\/Dependency\/PayUCommonUI\/PayUCommonUI\/User Cancellation\/View Model\/PayUUserCancellationViewModel.swift",
+      "filePath": "\/Users\/shah.faizal\/Documents\/payulabs\/Common-UI-iOS-SDK\/PayUCommonUI\/User Cancellation\/View Model\/PayUUserCancellationViewModel.swift",
       "kind": "BooleanLiteral",
       "offset": 1424,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Library\/Developer\/Xcode\/DerivedData\/OnePayU-bjfibozcksbqmddjubpsmycsowca\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUCommonUI\/IntermediateBuildFilesPath\/PayUCommonUI.build\/Release-iphoneos\/PayUCommonUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/shah.faizal\/Library\/Developer\/Xcode\/DerivedData\/PayUCommonUI-adwwvzwbdrqxsugnxoaehhgvtkdt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUCommonUI\/IntermediateBuildFilesPath\/PayUCommonUI.build\/Release-iphoneos\/PayUCommonUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 721,
       "length": 6,
       "value": "\"cart\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Library\/Developer\/Xcode\/DerivedData\/OnePayU-bjfibozcksbqmddjubpsmycsowca\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUCommonUI\/IntermediateBuildFilesPath\/PayUCommonUI.build\/Release-iphoneos\/PayUCommonUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/shah.faizal\/Library\/Developer\/Xcode\/DerivedData\/PayUCommonUI-adwwvzwbdrqxsugnxoaehhgvtkdt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUCommonUI\/IntermediateBuildFilesPath\/PayUCommonUI.build\/Release-iphoneos\/PayUCommonUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 847,
       "length": 7,
       "value": "\"check\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Library\/Developer\/Xcode\/DerivedData\/OnePayU-bjfibozcksbqmddjubpsmycsowca\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUCommonUI\/IntermediateBuildFilesPath\/PayUCommonUI.build\/Release-iphoneos\/PayUCommonUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/shah.faizal\/Library\/Developer\/Xcode\/DerivedData\/PayUCommonUI-adwwvzwbdrqxsugnxoaehhgvtkdt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUCommonUI\/IntermediateBuildFilesPath\/PayUCommonUI.build\/Release-iphoneos\/PayUCommonUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 972,
       "length": 6,
       "value": "\"line\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Library\/Developer\/Xcode\/DerivedData\/OnePayU-bjfibozcksbqmddjubpsmycsowca\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUCommonUI\/IntermediateBuildFilesPath\/PayUCommonUI.build\/Release-iphoneos\/PayUCommonUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/shah.faizal\/Library\/Developer\/Xcode\/DerivedData\/PayUCommonUI-adwwvzwbdrqxsugnxoaehhgvtkdt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUCommonUI\/IntermediateBuildFilesPath\/PayUCommonUI.build\/Release-iphoneos\/PayUCommonUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1094,
       "length": 5,
       "value": "\"pay\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Library\/Developer\/Xcode\/DerivedData\/OnePayU-bjfibozcksbqmddjubpsmycsowca\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUCommonUI\/IntermediateBuildFilesPath\/PayUCommonUI.build\/Release-iphoneos\/PayUCommonUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/shah.faizal\/Library\/Developer\/Xcode\/DerivedData\/PayUCommonUI-adwwvzwbdrqxsugnxoaehhgvtkdt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUCommonUI\/IntermediateBuildFilesPath\/PayUCommonUI.build\/Release-iphoneos\/PayUCommonUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1233,
       "length": 14,
       "value": "\"secureByPayU\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Library\/Developer\/Xcode\/DerivedData\/OnePayU-bjfibozcksbqmddjubpsmycsowca\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUCommonUI\/IntermediateBuildFilesPath\/PayUCommonUI.build\/Release-iphoneos\/PayUCommonUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/shah.faizal\/Library\/Developer\/Xcode\/DerivedData\/PayUCommonUI-adwwvzwbdrqxsugnxoaehhgvtkdt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUCommonUI\/IntermediateBuildFilesPath\/PayUCommonUI.build\/Release-iphoneos\/PayUCommonUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1369,
       "length": 8,
       "value": "\"square\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Library\/Developer\/Xcode\/DerivedData\/OnePayU-bjfibozcksbqmddjubpsmycsowca\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUCommonUI\/IntermediateBuildFilesPath\/PayUCommonUI.build\/Release-iphoneos\/PayUCommonUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/shah.faizal\/Library\/Developer\/Xcode\/DerivedData\/PayUCommonUI-adwwvzwbdrqxsugnxoaehhgvtkdt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUCommonUI\/IntermediateBuildFilesPath\/PayUCommonUI.build\/Release-iphoneos\/PayUCommonUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1489,
       "length": 3,
       "value": "\"u\""
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Library\/Developer\/Xcode\/DerivedData\/OnePayU-bjfibozcksbqmddjubpsmycsowca\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUCommonUI\/IntermediateBuildFilesPath\/PayUCommonUI.build\/Release-iphoneos\/PayUCommonUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/shah.faizal\/Library\/Developer\/Xcode\/DerivedData\/PayUCommonUI-adwwvzwbdrqxsugnxoaehhgvtkdt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PayUCommonUI\/IntermediateBuildFilesPath\/PayUCommonUI.build\/Release-iphoneos\/PayUCommonUI.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1616,
       "length": 9,
