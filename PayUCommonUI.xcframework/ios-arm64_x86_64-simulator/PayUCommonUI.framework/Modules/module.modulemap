@@ -7,5 +7,4 @@ framework module PayUCommonUI {
 
 module PayUCommonUI.Swift {
   header "PayUCommonUI-Swift.h"
-  requires objc
 }

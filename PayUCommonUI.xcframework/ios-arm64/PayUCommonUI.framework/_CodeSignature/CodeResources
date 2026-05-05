@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		TwHQBggBFzRPniwFMNCV0vATA28=
+		amQfPCk+dh8ikwziPhc1odpEvJ4=
 		</data>
 		<key>Headers/PayUCommonUI-Swift.h</key>
 		<data>
-		m4IXyg6n86lRid+fHdb6sefVR24=
+		jZtmkVhGr8TBb1wwUD8eKkcVGDs=
 		</data>
 		<key>Headers/PayUCommonUI.h</key>
 		<data>
@@ -18,31 +18,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lOkLzDiM6SIa86zNVz27r6Au2mc=
+		OGowV5C8t8lkoTvm79q4Xwl1fJc=
 		</data>
 		<key>Modules/PayUCommonUI.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		8j5IPu8wrlBHF2AKuSJpTKL8Qxg=
+		KN9/iIRRivNBKPtJmusTAy6GINw=
 		</data>
 		<key>Modules/PayUCommonUI.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		XbRnkaKCs5QgFzvwKSQ9zd1zM9I=
+		2V5iX4gSibCIQFqfyls2rQEDBDQ=
 		</data>
 		<key>Modules/PayUCommonUI.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		YbkVc/zX4JNJ/HCBHuYDRn4oaMw=
+		qfBb7nLCE9taYB7XjfOS46JIuaw=
 		</data>
 		<key>Modules/PayUCommonUI.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		XbRnkaKCs5QgFzvwKSQ9zd1zM9I=
+		2V5iX4gSibCIQFqfyls2rQEDBDQ=
 		</data>
 		<key>Modules/PayUCommonUI.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		PhIHdATmIMNtRdjDvr/k89/jYzs=
+		Npwxlscx9WdzjZp5jwvQOm0MJd8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		7/l/1AsuzrtVQkiJl7ctqjCJL0Y=
+		9CrAz4bH47+TKhhoaNUxsK94cpI=
 		</data>
 		<key>PayUCustomOverlay.nib</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>PayUUserCancellationTableViewCell.nib</key>
 		<data>
-		J+4BZ6/6rV+Vd94LFx2RpzPQVfE=
+		QvOBbDsnfGXKIBikFVZ8B1QkIHU=
 		</data>
 		<key>PayUUserCancellationView.nib</key>
 		<data>
-		uZkR0BccC/j3QOzXeuep0rJs/oY=
+		55DMQgYDurfuICvmE8c60FBgn6o=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -79,14 +79,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5JKlJ0rkwuUyPOPr87HNDs7UJSDwdTP0sVShm3QDOgw=
+			b7cHxVar9LEiADoMZPJFip1+O0g/zChYloOahzO0Qyk=
 			</data>
 		</dict>
 		<key>Headers/PayUCommonUI-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ru3EOxTcLgHTPC8zWBeeIKvNiZ8trHdEvmN+sz2TZ0g=
+			3NOPca+XbYbKK4rPsi020ctyEe+ru8kVLnsjnK6ANOw=
 			</data>
 		</dict>
 		<key>Headers/PayUCommonUI.h</key>
@@ -100,42 +100,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q0SRkqtlHMfiwF7fHLbY6j3Agsy/B4fGcUiXf2Dz79o=
+			JhntQW/cHojoaySXsVeInqC/8nHs1QgtFL8IcrfYjLw=
 			</data>
 		</dict>
 		<key>Modules/PayUCommonUI.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5e/AQCySkVnDS19hQgOMujcUYTMkIgg9U+ol1+W4F6s=
+			JcBgM3TR5ZUGsYwLEBYOPuQjGdlLIANlkgLFtnUlZIU=
 			</data>
 		</dict>
 		<key>Modules/PayUCommonUI.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dfpCAJ2P7sbsShl+OsZ/BB/zd4mq8HzVRD6S46ygk68=
+			Swru0ojESmBt9uhqNhb7z8bDntEDXKenKtNwgT3YNOM=
 			</data>
 		</dict>
 		<key>Modules/PayUCommonUI.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5e/AQCySkVnDS19hQgOMujcUYTMkIgg9U+ol1+W4F6s=
+			JcBgM3TR5ZUGsYwLEBYOPuQjGdlLIANlkgLFtnUlZIU=
 			</data>
 		</dict>
 		<key>Modules/PayUCommonUI.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6vdNKTGEs7JgWDndeMN32Expm9eaenwp4eTB3oOigoI=
+			DDURKWfjXM9MbWHdQYncTN48EuDqaWxGh2mJolAaqD8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LJHyhABYd+Lp0TppBUObqeHPyGt9ZbRnVPDQby15m50=
+			0KqleJn2A8KuXsQVnmQZn1Z/fuxXY4PJP4PowQenIJs=
 			</data>
 		</dict>
 		<key>PayUCustomOverlay.nib</key>
@@ -170,14 +170,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fPh+hYbBbHu4NIWk3tiGX5XWZPm9AHN78khqs6QFaZ8=
+			71pIACR0gIZ/p7ecpDVARy0e3GaNY7DGdHMoV40mBzA=
 			</data>
 		</dict>
 		<key>PayUUserCancellationView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WvS2mrANQtoC7CLvJjTUAdwjBbFPFZ6FvmtDpWzeLgw=
+			5pucTaapt9EdDZ0o6sOpbuK5SK7FmbTANp8hTnYMJXg=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
